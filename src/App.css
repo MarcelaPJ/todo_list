@@ -1,5 +1,7 @@
 .App {
+  margin: 0 auto;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .App-logo {
@@ -35,4 +37,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+input {
+  width: 20rem;
+  height: 2rem;
+  padding:0.5rem;
+  font-size: larger;
+  border-style: none;
+  background-color:#efefef;
+  border-radius:0.7rem;
+}
+
+button {
+  width: 6rem;
+  height: 2.5rem;
+  margin-top: 2rem;
+  background-color: #1e49f9;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 0.7rem;
+  border-color: #1e49f9;
+  
 }
